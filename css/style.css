@@ -4,13 +4,13 @@
     --border-color: rgba(255, 255, 255, 0.08);
     --text-primary: #ffffff;
     --text-secondary: #94A3B8;
-    
+
     --color-up: #10B981;
     --color-up-bg: rgba(16, 185, 129, 0.1);
-    
+
     --color-degraded: #F59E0B;
     --color-degraded-bg: rgba(245, 158, 11, 0.1);
-    
+
     --color-down: #EF4444;
     --color-down-bg: rgba(239, 68, 68, 0.1);
 
@@ -99,7 +99,7 @@ header {
     height: 20px;
     border-radius: 50%;
     border: 3px solid rgba(255, 255, 255, 0.8);
-    box-shadow: inset 0 0 10px rgba(255,255,255,0.4);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 h1 {
@@ -139,19 +139,48 @@ h1 {
 }
 
 /* Specific Status Colors */
-.global-status.all-up { background-color: var(--color-up-bg); border-color: rgba(16, 185, 129, 0.3); }
-.global-status.all-up .status-indicator { background-color: var(--color-up); box-shadow: 0 0 10px var(--color-up); animation: pulse 2s infinite; }
-.global-status.all-up .status-text { color: var(--color-up); }
+.global-status.all-up {
+    background-color: var(--color-up-bg);
+    border-color: rgba(16, 185, 129, 0.3);
+}
 
-.global-status.issues { background-color: var(--color-degraded-bg); border-color: rgba(245, 158, 11, 0.3); }
-.global-status.issues .status-indicator { background-color: var(--color-degraded); box-shadow: 0 0 10px var(--color-degraded); animation: pulse 1s infinite; }
-.global-status.issues .status-text { color: var(--color-degraded); }
+.global-status.all-up .status-indicator {
+    background-color: var(--color-up);
+    box-shadow: 0 0 10px var(--color-up);
+    animation: pulse 2s infinite;
+}
+
+.global-status.all-up .status-text {
+    color: var(--color-up);
+}
+
+.global-status.issues {
+    background-color: var(--color-degraded-bg);
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.global-status.issues .status-indicator {
+    background-color: var(--color-degraded);
+    box-shadow: 0 0 10px var(--color-degraded);
+    animation: pulse 1s infinite;
+}
+
+.global-status.issues .status-text {
+    color: var(--color-degraded);
+}
 
 /* Grid Layout */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
+}
+
+/* Service Card Link Wrapper */
+.service-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 /* Service Card Glassmorphism */
@@ -217,16 +246,37 @@ h1 {
 }
 
 /* status=UP */
-.service-card[data-status="UP"] .status-badge { background: var(--color-up-bg); color: var(--color-up); }
-.service-card[data-status="UP"] .badge-dot { background: var(--color-up); box-shadow: 0 0 5px var(--color-up); }
+.service-card[data-status="UP"] .status-badge {
+    background: var(--color-up-bg);
+    color: var(--color-up);
+}
+
+.service-card[data-status="UP"] .badge-dot {
+    background: var(--color-up);
+    box-shadow: 0 0 5px var(--color-up);
+}
 
 /* status=DEGRADED */
-.service-card[data-status="DEGRADED"] .status-badge { background: var(--color-degraded-bg); color: var(--color-degraded); }
-.service-card[data-status="DEGRADED"] .badge-dot { background: var(--color-degraded); box-shadow: 0 0 5px var(--color-degraded); }
+.service-card[data-status="DEGRADED"] .status-badge {
+    background: var(--color-degraded-bg);
+    color: var(--color-degraded);
+}
+
+.service-card[data-status="DEGRADED"] .badge-dot {
+    background: var(--color-degraded);
+    box-shadow: 0 0 5px var(--color-degraded);
+}
 
 /* status=DOWN */
-.service-card[data-status="DOWN"] .status-badge { background: var(--color-down-bg); color: var(--color-down); }
-.service-card[data-status="DOWN"] .badge-dot { background: var(--color-down); box-shadow: 0 0 5px var(--color-down); }
+.service-card[data-status="DOWN"] .status-badge {
+    background: var(--color-down-bg);
+    color: var(--color-down);
+}
+
+.service-card[data-status="DOWN"] .badge-dot {
+    background: var(--color-down);
+    box-shadow: 0 0 5px var(--color-down);
+}
 
 .status-description {
     color: var(--text-secondary);
@@ -251,19 +301,20 @@ h1 {
 .skeleton .skeleton-header {
     height: 24px;
     width: 40%;
-    background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 2s infinite linear;
     border-radius: 4px;
     margin-bottom: 1.5rem;
 }
+
 .skeleton .skeleton-body {
     height: 14px;
     width: 100%;
-    background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 2s infinite linear;
-    border-radius: 4px;   
+    border-radius: 4px;
 }
 
 footer {
@@ -277,22 +328,52 @@ footer {
 
 /* Animations */
 @keyframes fadeInDown {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.1); opacity: 0.7; }
-    100% { transform: scale(1); opacity: 1; }
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 @keyframes shimmer {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
 }

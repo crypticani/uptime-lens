@@ -61,7 +61,16 @@ function renderServices(data) {
 
     services.forEach((service, index) => {
         const clone = template.content.cloneNode(true);
+        const link = clone.querySelector('.service-card-link');
         const card = clone.querySelector('.service-card');
+
+        // Set link to official status page
+        if (service.url) {
+            link.href = service.url;
+        } else {
+            link.removeAttribute('target');
+            link.style.cursor = 'default';
+        }
 
         // Add animation delay for stagger effect
         card.style.animationDelay = `${index * 0.1}s`;

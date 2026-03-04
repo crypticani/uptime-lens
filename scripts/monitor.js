@@ -47,6 +47,7 @@ async function runAllChecks() {
                 statusData[provider] = {
                     status: currentStatus,
                     description: result.description,
+                    url: result.url || '',
                     history: [],
                     lastChecked: now
                 };
@@ -78,6 +79,7 @@ async function runAllChecks() {
             // Update current status & timestamp regardless
             statusData[provider].status = currentStatus;
             statusData[provider].description = result.description;
+            statusData[provider].url = result.url || '';
             statusData[provider].lastChecked = now;
 
         } catch (error) {
