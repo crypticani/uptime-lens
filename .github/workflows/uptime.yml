@@ -1,0 +1,44 @@
+name: Uptime Checks
+
+on:
+  schedule:
+    # Run every 10 minutes
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Uptime Checks
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/monitor.js
+
+      - name: Commit and Push Status Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/status.json
+          
+          # Only commit and push if there are changes
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: update status data [skip ci]"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
