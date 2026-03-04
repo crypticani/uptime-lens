@@ -5,7 +5,12 @@ import { checkGCP } from './monitors/gcp.js';
 import { checkOCI } from './monitors/oci.js';
 import { checkSupabase } from './monitors/supabase.js';
 import { checkGitHub } from './monitors/github.js';
-import { checkGitLab } from './monitors/gitlab.js';
+import { checkCloudflare } from './monitors/cloudflare.js';
+import { checkVercel } from './monitors/vercel.js';
+import { checkNetlify } from './monitors/netlify.js';
+import { checkAtlassian } from './monitors/atlassian.js';
+import { checkNpm } from './monitors/npm.js';
+import { checkTwilio } from './monitors/twilio.js';
 
 const monitors = {
     AWS: checkAWS,
@@ -14,7 +19,12 @@ const monitors = {
     OCI: checkOCI,
     Supabase: checkSupabase,
     GitHub: checkGitHub,
-    GitLab: checkGitLab
+    Cloudflare: checkCloudflare,
+    Vercel: checkVercel,
+    Netlify: checkNetlify,
+    Atlassian: checkAtlassian,
+    npm: checkNpm,
+    Twilio: checkTwilio
 };
 
 async function runAllChecks() {

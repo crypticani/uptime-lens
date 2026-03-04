@@ -3,42 +3,72 @@
     "status": "UP",
     "description": "AWS reported recent events on their RSS feed.",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   },
   "Azure": {
     "status": "UP",
     "description": "Azure Cloud services are responding.",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   },
   "GCP": {
     "status": "UP",
     "description": "GCP services are UP.",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   },
   "Supabase": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   },
   "GitHub": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   },
-  "GitLab": {
-    "status": "DOWN",
-    "description": "HTTP 404",
+  "Cloudflare": {
+    "status": "DEGRADED",
+    "description": "Minor Service Outage",
     "history": [],
-    "lastChecked": "2026-03-04T15:55:26.403Z"
+    "lastChecked": "2026-03-04T16:05:51.893Z"
+  },
+  "Vercel": {
+    "status": "DEGRADED",
+    "description": "Partial System Outage",
+    "history": [],
+    "lastChecked": "2026-03-04T16:05:51.893Z"
+  },
+  "Netlify": {
+    "status": "UP",
+    "description": "All Systems Operational",
+    "history": [],
+    "lastChecked": "2026-03-04T16:05:51.893Z"
+  },
+  "Atlassian": {
+    "status": "UP",
+    "description": "All Systems Operational",
+    "history": [],
+    "lastChecked": "2026-03-04T16:05:51.893Z"
+  },
+  "npm": {
+    "status": "UP",
+    "description": "All Systems Operational",
+    "history": [],
+    "lastChecked": "2026-03-04T16:05:51.893Z"
+  },
+  "Twilio": {
+    "status": "DEGRADED",
+    "description": "Partially Degraded Service",
+    "history": [],
+    "lastChecked": "2026-03-04T16:05:51.893Z"
   }
 }
