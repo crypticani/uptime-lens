@@ -52,6 +52,12 @@ async function runAllChecks() {
                     lastChecked: now
                 };
                 hasChanges = true;
+
+                // Alert if a newly added service is already degraded or down
+                if (currentStatus !== 'UP') {
+                    console.log(`[ALERT] ${provider} detected as ${currentStatus} on first check`);
+                    await sendTelegramAlert(`🚨 Uptime Lens Alert 🚨\n\nProvider: ${provider}\nStatus: ${currentStatus}\nDetails: ${result.description}`);
+                }
             }
 
             const previousStatus = statusData[provider].status;
