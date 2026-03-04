@@ -36,6 +36,40 @@ body {
     overflow-x: hidden;
 }
 
+/* Telegram Subscribe Button */
+.telegram-subscribe {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.1rem;
+    background: rgba(38, 165, 228, 0.15);
+    border: 1px solid rgba(38, 165, 228, 0.3);
+    border-radius: 999px;
+    color: #26A5E4;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+}
+
+.telegram-subscribe:hover {
+    background: rgba(38, 165, 228, 0.25);
+    border-color: rgba(38, 165, 228, 0.5);
+    box-shadow: 0 0 20px rgba(38, 165, 228, 0.2);
+    transform: translateY(-1px);
+}
+
+.telegram-icon {
+    width: 20px;
+    height: 20px;
+}
+
 /* Dynamic Ambient Background Glow */
 .background-glow {
     position: absolute;
