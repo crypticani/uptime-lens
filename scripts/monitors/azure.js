@@ -14,8 +14,8 @@ export async function checkAzure() {
             description = 'Azure reported recent events on their RSS feed.';
         }
 
-        return { status, description };
+        return { status, description, url: 'https://azure.status.microsoft/en-us/status' };
     } catch (error) {
-        return { status: 'DOWN', description: error.message };
+        return { status: 'DOWN', description: error.message, url: 'https://azure.status.microsoft/en-us/status' };
     }
 }

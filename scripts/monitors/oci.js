@@ -11,8 +11,8 @@ export async function checkOCI() {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
         // Simple check: if it loads, we assume it's up.
-        return { status: 'UP', description: 'OCI services are responding.' };
+        return { status: 'UP', description: 'OCI services are responding.', url: 'https://ocistatus.oraclecloud.com/' };
     } catch (error) {
-        return { status: 'DOWN', description: error.message };
+        return { status: 'DOWN', description: error.message, url: 'https://ocistatus.oraclecloud.com/' };
     }
 }

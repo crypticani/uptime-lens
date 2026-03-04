@@ -32,9 +32,9 @@ export async function checkAWS() {
             description = 'AWS reported recent events on their RSS feed.';
         }
 
-        return { status, description };
+        return { status, description, url: 'https://health.aws.amazon.com/health/status' };
 
     } catch (error) {
-        return { status: 'DOWN', description: error.message };
+        return { status: 'DOWN', description: error.message, url: 'https://health.aws.amazon.com/health/status' };
     }
 }

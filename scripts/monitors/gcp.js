@@ -19,8 +19,8 @@ export async function checkGCP() {
             }
         }
 
-        return { status, description };
+        return { status, description, url: 'https://status.cloud.google.com/' };
     } catch (error) {
-        return { status: 'DOWN', description: error.message };
+        return { status: 'DOWN', description: error.message, url: 'https://status.cloud.google.com/' };
     }
 }

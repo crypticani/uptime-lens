@@ -8,9 +8,10 @@ export async function checkGitHub() {
         const data = await res.json();
         return {
             status: data.status.indicator === 'none' ? 'UP' : 'DEGRADED',
-            description: data.status.description
+            description: data.status.description,
+            url: 'https://www.githubstatus.com/'
         };
     } catch (error) {
-        return { status: 'DOWN', description: error.message };
+        return { status: 'DOWN', description: error.message, url: 'https://www.githubstatus.com/' };
     }
 }
