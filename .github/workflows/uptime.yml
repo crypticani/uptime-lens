@@ -40,7 +40,8 @@ jobs:
           
           # Only commit and push if there are changes
           if ! git diff-index --quiet HEAD; then
-            git commit -m "chore: update status data [skip ci]"
+            git commit -m "chore: update status data"
+            git pull --rebase origin main
             git push origin main
           else
             echo "No changes to commit."
