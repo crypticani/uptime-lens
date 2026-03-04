@@ -7,7 +7,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "description": "",
   "dependencies": {
     "dotenv": "^17.3.1",
