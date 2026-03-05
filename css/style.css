@@ -38,13 +38,10 @@ body {
 
 /* Telegram Subscribe Button */
 .telegram-subscribe {
-    position: fixed;
-    top: 1.25rem;
-    right: 1.25rem;
-    z-index: 100;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    margin-top: 1.5rem;
     padding: 0.6rem 1.1rem;
     background: rgba(38, 165, 228, 0.15);
     border: 1px solid rgba(38, 165, 228, 0.3);
