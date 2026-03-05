@@ -3,63 +3,63 @@
     "status": "UP",
     "description": "AWS reported recent events on their RSS feed.",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://health.aws.amazon.com/health/status"
   },
   "Azure": {
     "status": "UP",
     "description": "Azure Cloud services are responding.",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://azure.status.microsoft/en-us/status"
   },
   "GCP": {
     "status": "UP",
     "description": "GCP services are UP.",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://status.cloud.google.com/"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://ocistatus.oraclecloud.com/"
   },
   "Supabase": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://status.supabase.com/"
   },
   "GitHub": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://www.githubstatus.com/"
   },
   "Netlify": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://www.netlifystatus.com/"
   },
   "Atlassian": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://status.atlassian.com/"
   },
   "npm": {
     "status": "UP",
     "description": "All Systems Operational",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z",
+    "lastChecked": "2026-03-05T09:40:08.674Z",
     "url": "https://status.npmjs.org/"
   },
   "Cloudflare": {
@@ -67,20 +67,20 @@
     "description": "Minor Service Outage",
     "url": "https://www.cloudflarestatus.com/",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z"
+    "lastChecked": "2026-03-05T09:40:08.674Z"
   },
   "Vercel": {
     "status": "DEGRADED",
     "description": "Partial System Outage",
     "url": "https://www.vercel-status.com/",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z"
+    "lastChecked": "2026-03-05T09:40:08.674Z"
   },
   "Twilio": {
     "status": "DEGRADED",
     "description": "Partially Degraded Service",
     "url": "https://status.twilio.com/",
     "history": [],
-    "lastChecked": "2026-03-05T08:57:28.371Z"
+    "lastChecked": "2026-03-05T09:40:08.674Z"
   }
 }
