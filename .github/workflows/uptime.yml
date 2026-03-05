@@ -11,9 +11,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "uptime-checks"
-  cancel-in-progress: false
 
 jobs:
   monitor:
