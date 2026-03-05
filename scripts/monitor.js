@@ -11,6 +11,12 @@ import { checkNetlify } from './monitors/netlify.js';
 import { checkAtlassian } from './monitors/atlassian.js';
 import { checkNpm } from './monitors/npm.js';
 import { checkTwilio } from './monitors/twilio.js';
+import { checkDigitalOcean } from './monitors/digitalocean.js';
+import { checkPyPI } from './monitors/pypi.js';
+import { checkDockerHub } from './monitors/dockerhub.js';
+import { checkFirebase } from './monitors/firebase.js';
+import { checkSendGrid } from './monitors/sendgrid.js';
+import { checkMongoDB } from './monitors/mongodb.js';
 
 const monitors = {
     AWS: checkAWS,
@@ -24,7 +30,13 @@ const monitors = {
     Netlify: checkNetlify,
     Atlassian: checkAtlassian,
     npm: checkNpm,
-    Twilio: checkTwilio
+    Twilio: checkTwilio,
+    DigitalOcean: checkDigitalOcean,
+    PyPI: checkPyPI,
+    DockerHub: checkDockerHub,
+    Firebase: checkFirebase,
+    SendGrid: checkSendGrid,
+    'MongoDB Atlas': checkMongoDB
 };
 
 async function runAllChecks() {
