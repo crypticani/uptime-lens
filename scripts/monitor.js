@@ -17,6 +17,7 @@ import { checkDockerHub } from './monitors/dockerhub.js';
 import { checkFirebase } from './monitors/firebase.js';
 import { checkSendGrid } from './monitors/sendgrid.js';
 import { checkMongoDB } from './monitors/mongodb.js';
+import { checkClaude } from './monitors/claude.js';
 
 const monitors = {
     AWS: checkAWS,
@@ -36,7 +37,8 @@ const monitors = {
     DockerHub: checkDockerHub,
     Firebase: checkFirebase,
     SendGrid: checkSendGrid,
-    'MongoDB Atlas': checkMongoDB
+    'MongoDB Atlas': checkMongoDB,
+    Claude: checkClaude
 };
 
 async function runAllChecks() {
