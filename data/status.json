@@ -3,7 +3,7 @@
     "status": "UP",
     "description": "AWS reported recent events on their RSS feed.",
     "history": [],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://health.aws.amazon.com/health/status"
   },
   "Azure": {
@@ -21,21 +21,21 @@
         "description": "request to https://azure.microsoft.com/en-us/status/feed/ failed, reason: getaddrinfo EAI_AGAIN azure.microsoft.com"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://azure.status.microsoft/en-us/status"
   },
   "GCP": {
     "status": "UP",
     "description": "GCP services are UP.",
     "history": [],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://status.cloud.google.com/"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://ocistatus.oraclecloud.com/"
   },
   "Supabase": {
@@ -143,7 +143,7 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://status.supabase.com/"
   },
   "GitHub": {
@@ -311,7 +311,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://www.githubstatus.com/"
   },
   "Netlify": {
@@ -459,7 +459,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://www.netlifystatus.com/"
   },
   "Atlassian": {
@@ -477,7 +477,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://status.atlassian.com/"
   },
   "npm": {
@@ -535,7 +535,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z",
+    "lastChecked": "2026-04-20T15:17:25.915Z",
     "url": "https://status.npmjs.org/"
   },
   "Cloudflare": {
@@ -543,7 +543,7 @@
     "description": "Minor Service Outage",
     "url": "https://www.cloudflarestatus.com/",
     "history": [],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "Vercel": {
     "status": "DEGRADED",
@@ -621,7 +621,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "Twilio": {
     "status": "DEGRADED",
@@ -769,7 +769,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "DigitalOcean": {
     "status": "UP",
@@ -907,7 +907,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "PyPI": {
     "status": "UP",
@@ -925,11 +925,11 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "DockerHub": {
     "status": "DEGRADED",
-    "description": "Full Service Disruption",
+    "description": "Degraded Performance",
     "url": "https://www.dockerstatus.com/",
     "history": [
       {
@@ -938,14 +938,14 @@
         "description": "Full Service Disruption"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "Firebase": {
     "status": "DEGRADED",
     "description": "Creating and opening Android Studio workspaces is temporarily unavailable",
     "url": "https://status.firebase.google.com/",
     "history": [],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "SendGrid": {
     "status": "UP",
@@ -1018,7 +1018,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "MongoDB Atlas": {
     "status": "DEGRADED",
@@ -1081,13 +1081,18 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   },
   "Claude": {
-    "status": "DEGRADED",
-    "description": "Partially Degraded Service",
+    "status": "UP",
+    "description": "All Systems Operational",
     "url": "https://status.claude.com/",
     "history": [
+      {
+        "status": "UP",
+        "timestamp": "2026-04-20T15:17:25.915Z",
+        "description": "All Systems Operational"
+      },
       {
         "status": "DEGRADED",
         "timestamp": "2026-04-20T13:47:27.812Z",
@@ -1154,6 +1159,6 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-04-20T13:47:27.812Z"
+    "lastChecked": "2026-04-20T15:17:25.915Z"
   }
 }
