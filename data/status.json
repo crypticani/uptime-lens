@@ -14,7 +14,7 @@
         "description": "request to https://health.aws.amazon.com/health/status/current-events.json failed, reason: connect ETIMEDOUT 44.216.189.46:443"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://health.aws.amazon.com/health/status"
   },
   "Azure": {
@@ -42,7 +42,7 @@
         "description": "request to https://azure.microsoft.com/en-us/status/feed/ failed, reason: getaddrinfo EAI_AGAIN azure.microsoft.com"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://azure.status.microsoft/en-us/status"
   },
   "GCP": {
@@ -55,14 +55,14 @@
         "description": "Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss."
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://status.cloud.google.com/"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://ocistatus.oraclecloud.com/"
   },
   "Supabase": {
@@ -230,7 +230,7 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://status.supabase.com/"
   },
   "GitHub": {
@@ -458,7 +458,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://www.githubstatus.com/"
   },
   "Netlify": {
@@ -686,7 +686,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://www.netlifystatus.com/"
   },
   "Atlassian": {
@@ -704,7 +704,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://status.atlassian.com/"
   },
   "npm": {
@@ -782,7 +782,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z",
+    "lastChecked": "2026-06-10T23:26:21.353Z",
     "url": "https://status.npmjs.org/"
   },
   "Cloudflare": {
@@ -790,7 +790,7 @@
     "description": "Minor Service Outage",
     "url": "https://www.cloudflarestatus.com/",
     "history": [],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "Vercel": {
     "status": "UP",
@@ -963,7 +963,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "Twilio": {
     "status": "DEGRADED",
@@ -1131,7 +1131,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "DigitalOcean": {
     "status": "UP",
@@ -1429,7 +1429,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "PyPI": {
     "status": "UP",
@@ -1447,7 +1447,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "DockerHub": {
     "status": "UP",
@@ -1475,14 +1475,14 @@
         "description": "Full Service Disruption"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "Firebase": {
     "status": "DEGRADED",
     "description": "Creating and opening Android Studio workspaces is temporarily unavailable",
     "url": "https://status.firebase.google.com/",
     "history": [],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "SendGrid": {
     "status": "UP",
@@ -1585,13 +1585,18 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "MongoDB Atlas": {
-    "status": "DEGRADED",
-    "description": "Service Under Maintenance",
+    "status": "UP",
+    "description": "All Systems Operational",
     "url": "https://status.mongodb.com/",
     "history": [
+      {
+        "status": "UP",
+        "timestamp": "2026-06-10T23:26:21.353Z",
+        "description": "All Systems Operational"
+      },
       {
         "status": "DEGRADED",
         "timestamp": "2026-06-09T18:07:38.670Z",
@@ -1718,7 +1723,7 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   },
   "Claude": {
     "status": "UP",
@@ -1996,6 +2001,6 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-06-10T20:32:48.863Z"
+    "lastChecked": "2026-06-10T23:26:21.353Z"
   }
 }
