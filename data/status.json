@@ -14,7 +14,7 @@
         "description": "request to https://health.aws.amazon.com/health/status/current-events.json failed, reason: connect ETIMEDOUT 44.216.189.46:443"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://health.aws.amazon.com/health/status"
   },
   "Azure": {
@@ -42,7 +42,7 @@
         "description": "request to https://azure.microsoft.com/en-us/status/feed/ failed, reason: getaddrinfo EAI_AGAIN azure.microsoft.com"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://azure.status.microsoft/en-us/status"
   },
   "GCP": {
@@ -55,20 +55,25 @@
         "description": "Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss."
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://status.cloud.google.com/"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://ocistatus.oraclecloud.com/"
   },
   "Supabase": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-06-12T21:47:29.266Z",
@@ -240,13 +245,18 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://status.supabase.com/"
   },
   "GitHub": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-05-28T23:19:06.502Z",
@@ -468,13 +478,18 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://www.githubstatus.com/"
   },
   "Netlify": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-06-13T19:39:17.218Z",
@@ -706,13 +721,18 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://www.netlifystatus.com/"
   },
   "Atlassian": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-04-09T09:11:22.189Z",
@@ -724,13 +744,18 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://status.atlassian.com/"
   },
   "npm": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-04-29T19:40:11.900Z",
@@ -802,21 +827,32 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z",
+    "lastChecked": "2026-06-14T21:14:41.685Z",
     "url": "https://status.npmjs.org/"
   },
   "Cloudflare": {
-    "status": "DEGRADED",
-    "description": "Minor Service Outage",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://www.cloudflarestatus.com/",
-    "history": [],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      }
+    ],
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "Vercel": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://www.vercel-status.com/",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-05-23T19:13:19.264Z",
@@ -983,13 +1019,18 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "Twilio": {
-    "status": "DEGRADED",
-    "description": "Partially Degraded Service",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://status.twilio.com/",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "DEGRADED",
         "timestamp": "2026-05-09T06:18:15.174Z",
@@ -1151,7 +1192,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "DigitalOcean": {
     "status": "UP",
@@ -1459,13 +1500,18 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "PyPI": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://status.python.org/",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-04-09T09:11:22.189Z",
@@ -1477,7 +1523,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "DockerHub": {
     "status": "UP",
@@ -1505,20 +1551,25 @@
         "description": "Full Service Disruption"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "Firebase": {
     "status": "DEGRADED",
     "description": "Creating and opening Android Studio workspaces is temporarily unavailable",
     "url": "https://status.firebase.google.com/",
     "history": [],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "SendGrid": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://status.sendgrid.com/",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-06-14T19:39:22.919Z",
@@ -1625,13 +1676,18 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "MongoDB Atlas": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://status.mongodb.com/",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-06-10T23:26:21.353Z",
@@ -1763,13 +1819,18 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   },
   "Claude": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DOWN",
+    "description": "HTTP 405",
     "url": "https://status.claude.com/",
     "history": [
+      {
+        "status": "DOWN",
+        "timestamp": "2026-06-14T21:14:41.685Z",
+        "description": "HTTP 405"
+      },
       {
         "status": "UP",
         "timestamp": "2026-06-09T23:17:34.478Z",
@@ -2041,6 +2102,6 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-06-14T19:39:22.919Z"
+    "lastChecked": "2026-06-14T21:14:41.685Z"
   }
 }
