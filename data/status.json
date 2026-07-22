@@ -14,7 +14,7 @@
         "description": "request to https://health.aws.amazon.com/health/status/current-events.json failed, reason: connect ETIMEDOUT 44.216.189.46:443"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://health.aws.amazon.com/health/status"
   },
   "Azure": {
@@ -52,7 +52,7 @@
         "description": "request to https://azure.microsoft.com/en-us/status/feed/ failed, reason: getaddrinfo EAI_AGAIN azure.microsoft.com"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://azure.status.microsoft/en-us/status"
   },
   "GCP": {
@@ -90,20 +90,25 @@
         "description": "Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss."
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://status.cloud.google.com/"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://ocistatus.oraclecloud.com/"
   },
   "Supabase": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DEGRADED",
+    "description": "Partially Degraded Service",
     "history": [
+      {
+        "status": "DEGRADED",
+        "timestamp": "2026-07-22T17:21:40.132Z",
+        "description": "Partially Degraded Service"
+      },
       {
         "status": "UP",
         "timestamp": "2026-07-17T20:57:26.866Z",
@@ -345,7 +350,7 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://status.supabase.com/"
   },
   "GitHub": {
@@ -663,7 +668,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://www.githubstatus.com/"
   },
   "Netlify": {
@@ -926,7 +931,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://www.netlifystatus.com/"
   },
   "Atlassian": {
@@ -964,7 +969,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://status.atlassian.com/"
   },
   "npm": {
@@ -1062,7 +1067,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z",
+    "lastChecked": "2026-07-22T17:21:40.132Z",
     "url": "https://status.npmjs.org/"
   },
   "Cloudflare": {
@@ -1091,7 +1096,7 @@
         "description": "HTTP 405"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "Vercel": {
     "status": "UP",
@@ -1339,7 +1344,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "Twilio": {
     "status": "DEGRADED",
@@ -1527,13 +1532,18 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "DigitalOcean": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DEGRADED",
+    "description": "Partially Degraded Service",
     "url": "https://status.digitalocean.com/",
     "history": [
+      {
+        "status": "DEGRADED",
+        "timestamp": "2026-07-22T17:21:40.132Z",
+        "description": "Partially Degraded Service"
+      },
       {
         "status": "UP",
         "timestamp": "2026-07-19T14:57:08.815Z",
@@ -1945,7 +1955,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "PyPI": {
     "status": "UP",
@@ -1983,7 +1993,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "DockerHub": {
     "status": "UP",
@@ -2021,7 +2031,7 @@
         "description": "Full Service Disruption"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "Firebase": {
     "status": "DEGRADED",
@@ -2049,7 +2059,7 @@
         "description": "All Firebase services are operating normally."
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "SendGrid": {
     "status": "UP",
@@ -2202,7 +2212,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "MongoDB Atlas": {
     "status": "UP",
@@ -2390,13 +2400,18 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   },
   "Claude": {
-    "status": "DEGRADED",
-    "description": "Partially Degraded Service",
+    "status": "UP",
+    "description": "All Systems Operational",
     "url": "https://status.claude.com/",
     "history": [
+      {
+        "status": "UP",
+        "timestamp": "2026-07-22T17:21:40.132Z",
+        "description": "All Systems Operational"
+      },
       {
         "status": "DEGRADED",
         "timestamp": "2026-07-22T13:59:16.653Z",
@@ -2878,6 +2893,6 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-07-22T15:47:20.829Z"
+    "lastChecked": "2026-07-22T17:21:40.132Z"
   }
 }
