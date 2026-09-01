@@ -14,7 +14,7 @@
         "description": "request to https://health.aws.amazon.com/health/status/current-events.json failed, reason: connect ETIMEDOUT 44.216.189.46:443"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://health.aws.amazon.com/health/status"
   },
   "Azure": {
@@ -52,13 +52,18 @@
         "description": "request to https://azure.microsoft.com/en-us/status/feed/ failed, reason: getaddrinfo EAI_AGAIN azure.microsoft.com"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://azure.status.microsoft/en-us/status"
   },
   "GCP": {
-    "status": "UP",
-    "description": "GCP services are UP.",
+    "status": "DEGRADED",
+    "description": "Multiple products in us-central1-b are experiencing network service degradation.",
     "history": [
+      {
+        "status": "DEGRADED",
+        "timestamp": "2026-09-01T16:13:32.489Z",
+        "description": "Multiple products in us-central1-b are experiencing network service degradation."
+      },
       {
         "status": "UP",
         "timestamp": "2026-08-20T20:29:25.669Z",
@@ -100,14 +105,14 @@
         "description": "Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss."
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://status.cloud.google.com/"
   },
   "OCI": {
     "status": "UP",
     "description": "OCI services are responding.",
     "history": [],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://ocistatus.oraclecloud.com/"
   },
   "Supabase": {
@@ -410,7 +415,7 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://status.supabase.com/"
   },
   "GitHub": {
@@ -808,7 +813,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://www.githubstatus.com/"
   },
   "Netlify": {
@@ -1111,7 +1116,7 @@
         "description": "Partial System Outage"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://www.netlifystatus.com/"
   },
   "Atlassian": {
@@ -1149,7 +1154,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://status.atlassian.com/"
   },
   "npm": {
@@ -1267,7 +1272,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z",
+    "lastChecked": "2026-09-01T16:13:32.489Z",
     "url": "https://status.npmjs.org/"
   },
   "Cloudflare": {
@@ -1296,7 +1301,7 @@
         "description": "HTTP 405"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "Vercel": {
     "status": "UP",
@@ -1564,7 +1569,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "Twilio": {
     "status": "DEGRADED",
@@ -1752,7 +1757,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "DigitalOcean": {
     "status": "UP",
@@ -2260,7 +2265,7 @@
         "description": "Partially Degraded Service"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "PyPI": {
     "status": "UP",
@@ -2298,7 +2303,7 @@
         "description": "HTTP 503"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "DockerHub": {
     "status": "UP",
@@ -2366,11 +2371,11 @@
         "description": "Full Service Disruption"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "Firebase": {
     "status": "DEGRADED",
-    "description": "Firebase Cloud Messaging - low availability in North America",
+    "description": "Visible reduction in data within Performance Monitoring dashboards and BigQuery exports.",
     "url": "https://status.firebase.google.com/",
     "history": [
       {
@@ -2394,7 +2399,7 @@
         "description": "All Firebase services are operating normally."
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "SendGrid": {
     "status": "DEGRADED",
@@ -2577,7 +2582,7 @@
         "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "MongoDB Atlas": {
     "status": "UP",
@@ -2835,13 +2840,18 @@
         "description": "Minor Service Outage"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   },
   "Claude": {
-    "status": "UP",
-    "description": "All Systems Operational",
+    "status": "DEGRADED",
+    "description": "Partially Degraded Service",
     "url": "https://status.claude.com/",
     "history": [
+      {
+        "status": "DEGRADED",
+        "timestamp": "2026-09-01T16:13:32.489Z",
+        "description": "Partially Degraded Service"
+      },
       {
         "status": "UP",
         "timestamp": "2026-08-31T22:36:07.173Z",
@@ -3336,13 +3346,8 @@
         "status": "DEGRADED",
         "timestamp": "2026-05-26T03:45:58.525Z",
         "description": "Partially Degraded Service"
-      },
-      {
-        "status": "UP",
-        "timestamp": "2026-05-22T10:52:31.641Z",
-        "description": "All Systems Operational"
       }
     ],
-    "lastChecked": "2026-09-01T11:16:26.506Z"
+    "lastChecked": "2026-09-01T16:13:32.489Z"
   }
 }
